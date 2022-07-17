@@ -1,7 +1,7 @@
 from pytube import Playlist
 import os
 
-playlist_name = input('Enter the playlist name: ')
+playlist_name = input('Enter the playlist link: ')
 print('               ')
 
 #p = Playlist('https://www.youtube.com/playlist?list=PLgkbRcCnThjCsHYvpExLqZEI891dFAMR2')
