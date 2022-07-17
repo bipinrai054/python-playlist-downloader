@@ -1,7 +1,12 @@
 from pytube import Playlist
 import os
 
-p = Playlist('https://www.youtube.com/playlist?list=PLgkbRcCnThjCsHYvpExLqZEI891dFAMR2')
+playlist_name = input('Enter the playlist name: ')
+print('               ')
+
+#p = Playlist('https://www.youtube.com/playlist?list=PLgkbRcCnThjCsHYvpExLqZEI891dFAMR2')
+
+p = Playlist(playlist_name)
 
 print(f'Downloading: {p.title}')
 print ('                    ')
