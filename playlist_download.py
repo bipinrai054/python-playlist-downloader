@@ -1,7 +1,7 @@
 from pytube import Playlist
 import os
 
-p = Playlist('https://www.youtube.com/playlist?list=PLgkbRcCnThjDY3aVI2MS2rvNArq-tOk4j')
+p = Playlist('https://www.youtube.com/playlist?list=PLgkbRcCnThjCsHYvpExLqZEI891dFAMR2')
 
 print(f'Downloading: {p.title}')
 
